@@ -1,0 +1,1 @@
+berry angular template
