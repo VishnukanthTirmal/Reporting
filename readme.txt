@@ -13,12 +13,8 @@ Add new url in nav
   5. Add shared module in imports array of newly created component.
   6. Add default keyword in component like below.
      export default class HistoryComponent { 
-  7. In app-routung.module.ts add path 
-      {
-        path: 'history',
-        loadComponent: () => import('./history/history.component')
-      }        
-  8.
+ 
           
 
-          
+DataTables 
+https://blog.logrocket.com/angular-datatables-feature-rich-tables/ 
