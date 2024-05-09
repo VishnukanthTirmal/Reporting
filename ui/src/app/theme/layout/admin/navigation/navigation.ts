@@ -125,6 +125,32 @@ const NavigationItems = [
         external: true
       }
     ]
+  },
+  {
+    id: 'admin',
+    title: 'Admin',
+    type: 'group',
+    icon: 'icon-navigation',
+    children: [
+      {
+        id: 'history',
+        title: 'History',
+        type: 'item',
+        url: '/history',
+        classes: 'nav-item',
+        icon: 'ti ti-brand-chrome'
+      },
+      {
+        id: 'document',
+        title: 'Document',
+        type: 'item',
+        classes: 'nav-item',
+        url: 'https://codedthemes.gitbook.io/berry-angular/',
+        icon: 'ti ti-vocabulary',
+        target: true,
+        external: true
+      }
+    ]
   }
 ];
 

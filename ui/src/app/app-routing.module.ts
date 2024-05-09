@@ -28,6 +28,10 @@ const routes: Routes = [
       {
         path: 'sample-page',
         loadComponent: () => import('./demo/sample-page/sample-page.component')
+      },
+      {
+        path: 'history',
+        loadComponent: () => import('./history/history.component')
       }
     ]
   },
